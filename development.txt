@@ -1,0 +1,34 @@
+The week of Nov. 11th
+We finished the drafting and signing of the group contract and the discussion of the proposal, 
+and roughly confirmed the content we need to implement and the corresponding algorithm.After that, along with the schedule, we began to learn about makefiles. 
+After studying makefiles provided by MP and materials on Google for several times, we began to try to establish our own Makefiles. 
+We implemented the read_valid_route and read_airport functions in dataIO.h and dataIO.cpp files. 
+These two functions help us get the corresponding data and allow us to analyze the data in the following code.
+
+The week of Nov.18th
+As the course progresses, we begin to learn how to implement images in code. We created graph.h and graph.cpp. 
+And we intend to construct graph using adjacent method. Based on the IO knowledge of the last week, 
+we extracted the corresponding data from the file in the form of vector and map, 
+and processed them as points of graph. We wrote calculate_distance to calculate the distance between two points, 
+so as to assist in the judgment of the minimum path later.
+
+The week of Nov.22th
+This week we added fucntion to graph.cpp, and we wanted to be able to visualize our search process by printing gifs and png image. 
+We studied the animation file in Mp Traversal and implement our own animation file. We ended up with something.
+Through the lecture, we began to have a basic understanding of the graph algorithms, and learn how to practice the BFS algorithm in graphs.
+We apply our knowledge learned in class to graphs.
+The first time, we wanted to build a vector of ints from BFS, but in the end that didn't seem to fit our requirements. 
+So we rewrote the BFS algorithm and implemented it with a double vector.At the same time, we began to study Dijkstra's algorithm.
+we finish the shortest path algorithm and also implemented basic graphic output function for us to see.
+
+The week of Nov.29th
+Mid-point check. This week we made some changes to the Dijkstra algorithm to fit our project, and end up with a runnable Dijkstra,
+Also, we made some changes to the draw image function and finish up the draw_img function. Also, we wrote the betweenness centrality
+algorithm based on a paper. Also, we tried to implement the force-directed graph algorithm. This week we mainly tried to make our work 
+runnable and fix some errors.
+
+The week of Dec.9th
+We made some changes to the project based on the advice purposed by our mentor. We included a first draft of the readme. Also, we write the
+CMakeFile for us to compile and run using a simple command in every environment. Also, we made some improvements on the betweenness
+centrality algorithm to show more airports and their importance using a different color. We tried to write more test cases to test our
+current results. And we tried to improve our force-directed graph algorithm.
